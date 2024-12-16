@@ -1,10 +1,4 @@
-# Large Language Models as Optimizers
-
-This repository contains the code for the paper
-
-> [Large Language Models as Optimizers](https://arxiv.org/abs/2309.03409)\
-> Chengrun Yang*, Xuezhi Wang, Yifeng Lu, Hanxiao Liu, Quoc V. Le, Denny Zhou, Xinyun Chen* [* Equal Contribution]\
-> _arXiv: 2309.03409_
+# Scorpius AI Large Language Models as Optimizers
 
 <p align="center">
   <img src="img/workflow.png" alt="workflow" width="48%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -75,4 +69,3 @@ If you have used our code in your research, please cite our [paper](https://arxi
 
 
 *Disclaimer: this is not an officially supported Google product.*
-
