@@ -14,7 +14,7 @@ The code has been verified to work under `Python 3.10.13` with the following dep
 ## Usage
 
 ### Prompt optimization 
-Use `opro/optimization/optimize_instructions.py`, follow the steps at the top. 
+Use `scorpius/optimization/optimize_instructions.py`, follow the steps at the top. 
 
 A quickstarter:
 
@@ -24,7 +24,7 @@ python optimize_instructions.py --optimizer="gpt-3.5-turbo" --scorer="text-bison
 `
 
 ### Prompt evaluation
-Use `opro/evaluation/evaluate_instructions.py`, follow the steps at the top.
+Use `scorpius/evaluation/evaluate_instructions.py`, follow the steps at the top.
 
 A quickstarter:
 
@@ -33,16 +33,16 @@ python evaluate_instructions.py --scorer="text-bison" --dataset="gsm8k" --task="
 `
 
 ### Linear regression
-Use `opro/optimization/optimize_linear_regression.py`, follow the steps at the top.
+Use `scorpius/optimization/optimize_linear_regression.py`, follow the steps at the top.
 
 
 ### Traveling salesman problem
-Use `opro/optimization/optimize_tsp.py`, follow the steps at the top.
+Use `scorpius/optimization/optimize_tsp.py`, follow the steps at the top.
 
 
 ## Supported models
 
-The code in this repository currently supports [text-bison](https://cloud.google.com/vertex-ai/docs/generative-ai/model-reference/text) and [GPT models](https://platform.openai.com/docs/api-reference/introduction). Alternatively, you may serve your own model and plug it in here, similar to the existing prompting APIs in `opro/prompt_utils.py`.
+The code in this repository currently supports [text-bison](https://cloud.google.com/vertex-ai/docs/generative-ai/model-reference/text) and [GPT models](https://platform.openai.com/docs/api-reference/introduction). Alternatively, you may serve your own model and plug it in here, similar to the existing prompting APIs in `scorpius/prompt_utils.py`.
 
 
 ## Precaution on API costs
