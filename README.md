@@ -1,10 +1,5 @@
 # Scorpius AI Large Language Models as Optimizers
 
-<p align="center">
-  <img src="img/workflow.png" alt="workflow" width="48%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="img/gpt_meta_prompt.png" alt="workflow" width="40%">
-</p>
-
 ## Dependency requirements
 
 The code has been verified to work under `Python 3.10.13` with the following dependencies:
